@@ -1,0 +1,26 @@
+body{
+    margin: 30px auto 0;
+}
+
+.error{
+	color: red;
+}
+.header{
+	width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	background: #009688; 
+	margin-top: 50px;
+	padding: 10px;
+	text-align: left;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+} 
+.box{
+	width: 80%;
+	margin: 0 auto; 
+	padding: 15px; 
+	border: 1px #004D40 solid;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
