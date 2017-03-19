@@ -46,4 +46,4 @@ Truong(private Integer maTruong;
 	<th>Ma truong</th>
 	<th>Ma nganh cong ty</th>
 	<th>Ten cong ty</th>
-	<th>Thoi gian lam viec</th>
+	<th>Thoi gian lam viec</th> 
