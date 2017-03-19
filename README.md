@@ -47,3 +47,53 @@ Truong(private Integer maTruong;
 	<th>Ma nganh cong ty</th>
 	<th>Ten cong ty</th>
 	<th>Thoi gian lam viec</th> 
+
+
+CREATE TABLE CongViec (
+maCongViec	nvarchar(255) NOT NULL PRIMARY KEY,
+ngayVaoCongTy	nvarchar(255),
+tenCongViec	nvarchar(255),
+tenCongTy	nvarchar(255),
+diaChiCongTy	nvarchar(255),
+thoiGianLamViec	nvarchar(255)
+ 
+);
+
+ 
+CREATE TABLE Nganh (
+maNganh	nvarchar(255) NOT NULL PRIMARY KEY,
+tenNganh	nvarchar(255),
+tenCongViec	nvarchar(255),
+loaiNganh	nvarchar(255)
+);
+CREATE TABLE SinhVien (
+ cmnd	nvarchar(255)  NOT NULL PRIMARY KEY,
+ hoTen	nvarchar(255),
+ email	nvarchar(255),
+ sdt	nvarchar(255),
+ diaChi	nvarchar(255),
+ maTn	nvarchar(255),
+ maCongViec	nvarchar(255),
+ maTruong	nvarchar(255)
+
+);
+
+ 
+CREATE TABLE TotNghiep (
+maTn	nvarchar(255) NOT NULL PRIMARY KEY,
+heTn	nvarchar(255),
+ngayTn	nvarchar(255),
+loaiTn	nvarchar(255) 
+);
+
+ 
+CREATE TABLE Truong (
+maTruong	nvarchar(255) NOT NULL PRIMARY KEY,
+tenTruong	nvarchar(255),
+diaChi	nvarchar(255),
+tenCongTy	nvarchar(255),
+soDt	nvarchar(255) 
+ 
+);
+
+ 
